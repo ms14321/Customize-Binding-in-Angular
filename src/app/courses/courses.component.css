@@ -1,0 +1,68 @@
+/* CSS for the course container */
+.course-container {
+    display: inline-flex;
+    padding-top: 10px;
+    border: #3498db;
+    
+  }
+  
+  /* CSS for the individual course cards */
+  .course-card {
+    
+    width: 220px;
+    height: 320px;
+    margin: 10px 10px;
+    background-color: aliceblue;
+  }
+  
+  .course-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* CSS for the course image */
+  .course-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* CSS for the course name */
+  .course-name {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* CSS for the course type */
+  .course-type {
+    padding: 5px;
+    text-align: center;
+  }
+  
+  /* CSS for the course price */
+  .course-price {
+    padding: 5px;
+    text-align: center;
+  }
+  
+  /* CSS for the course buttons */
+  .course-buttons {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  
+  /* Additional styling for buttons (you can customize this further) */
+  .btn {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .btn-buy {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .btn-show {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
